@@ -1,0 +1,21 @@
+STNO       NAME                 AGE         MONIT      MACR        MICR        EDATE                       DEPTNO      
+---------- -------------------- ----------- ---------- ----------- ----------- --------------------------- ----------- 
+2000000012 WANG DONG5           20          2000000012 29          NULL        2014-09-01 00:00:00.000     23
+
+(1 row(s) affected)
+
+DEPTNO      DNAME              HEADNAME             
+----------- ------------------ -------------------- 
+20          FA XUE             ZHANG SAN
+21          JI SUAN JI         ZHANG SAN2
+22          JI XIE             ZHANG SAN3
+23          DIAN ZI            ZHANG SAN4
+24          YING YU            ZHANG SAN5
+20          FA XUE             ZHANG SAN6
+21          JI SUAN JI         ZHANG SAN7
+22          JI XIE             ZHANG SAN8
+23          DIAN ZI            ZHANG SAN9
+24          YING YU            ZHANG SA10
+
+(10 row(s) affected)
+

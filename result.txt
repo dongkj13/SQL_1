@@ -1,0 +1,103 @@
+DEPTNO      DNAME              HEAD       
+----------- ------------------ ---------- 
+20          FA XUE             100000020 
+21          JI SUAN JI         1000000021
+22          JI XIE             1000000022
+23          DIAN ZI            1000000023
+24          YING YU            1000000024
+
+(5 row(s) affected)
+
+NAME                 AGE         MACR        
+-------------------- ----------- ----------- 
+ZHANG YI             20          30
+WANG DONG5           20          29
+WANG DONG6           20          27
+ZHANG YI6            20          27
+WANG DONG7           20          26
+ZHANG YI5            20          26
+ZHANG YI4            20          25
+WANG DONG4           20          24
+ZHANG YI3            20          23
+WANG DONG            20          21
+ZHANG YI2            20          20
+ZHANG YI7            20          19
+WANG DONG3           20          19
+WANG DONG2           20          18
+
+(14 row(s) affected)
+
+NAME                 
+-------------------- 
+ZHANG YI2
+ZHANG YI3
+ZHANG YI4
+WANG DONG2
+WANG DONG5
+
+(5 row(s) affected)
+
+NAME                 
+-------------------- 
+ZHANG YI
+ZHANG YI2
+ZHANG YI7
+WANG DONG
+WANG DONG3
+WANG DONG6
+WANG DONG7
+
+(7 row(s) affected)
+
+DEPTNO      STUNUM      AVGCR       
+----------- ----------- ----------- 
+20          4           32
+21          4           29
+22          1           19
+23          5           25
+
+(4 row(s) affected)
+
+STNO       NAME                 AGE         MONIT      MACR        MICR        EDATE                       DEPTNO      
+---------- -------------------- ----------- ---------- ----------- ----------- --------------------------- ----------- 
+2000000001 ZHANG YI             20          2000000001 30          20          2013-09-01 00:00:00.000     20
+2000000013 WANG DONG6           20          2000000013 27          5           2013-09-01 00:00:00.000     20
+
+(2 row(s) affected)
+
+STNO       NAME                 AGE         MONIT      MACR        MICR        EDATE                       DEPTNO      
+---------- -------------------- ----------- ---------- ----------- ----------- --------------------------- ----------- 
+2000000003 ZHANG YI3            20          2000000002 23          6           2011-09-01 00:00:00.000     23
+
+(1 row(s) affected)
+
+DEPTNO      DNAME              
+----------- ------------------ 
+21          JI SUAN JI
+
+(1 row(s) affected)
+
+STNO       NAME                 AGE         MONIT      MACR        MICR        EDATE                       DEPTNO      
+---------- -------------------- ----------- ---------- ----------- ----------- --------------------------- ----------- 
+2000000003 ZHANG YI3            20          2000000002 23          6           2011-09-01 00:00:00.000     23
+2000000004 ZHANG YI4            20          2000000002 25          2           2014-09-01 00:00:00.000     23
+
+(2 row(s) affected)
+
+STNO       NAME                 
+---------- -------------------- 
+2000000001 ZHANG YI
+2000000010 WANG DONG3
+2000000011 WANG DONG4
+2000000013 WANG DONG6
+
+(4 row(s) affected)
+
+NAME                 DNAME              
+-------------------- ------------------ 
+ZHANG SAN7           JI SUAN JI
+ZHANG SAN9           DIAN ZI
+ZHANG SA10           YING YU
+
+(3 row(s) affected)
+
